@@ -31,7 +31,7 @@
     "@types/markdown-it": "13.0.1",
     "@types/node": "latest",
     "@typescript-eslint/eslint-plugin": "6.6.0",
-    "@typescript-eslint/parser": "6.5.0",
+    "@typescript-eslint/parser": "6.6.0",
     "@unpic/qwik": "0.0.25",
     "autoprefixer": "10.4.15",
     "eslint": "8.48.0",
