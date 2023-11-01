@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@builder.io/qwik':
-    specifier: 1.2.15
-    version: 1.2.15(undici@5.26.3)
+    specifier: 1.2.16
+    version: 1.2.16(@types/node@20.8.9)(undici@5.26.3)
   '@builder.io/qwik-city':
-    specifier: 1.2.15
-    version: 1.2.15
+    specifier: 1.2.16
+    version: 1.2.16(@types/node@20.8.9)
   '@divriots/jampack':
     specifier: 0.21.1
     version: 0.21.1(react-dom@16.14.0)(react@16.14.0)
@@ -37,7 +37,7 @@ dependencies:
     version: 6.9.1(eslint@8.52.0)(typescript@5.2.2)
   '@unpic/qwik':
     specifier: 0.0.30
-    version: 0.0.30(@builder.io/qwik@1.2.15)
+    version: 0.0.30(@builder.io/qwik@1.2.16)
   autoprefixer:
     specifier: 10.4.16
     version: 10.4.16(postcss@8.4.31)
@@ -45,8 +45,8 @@ dependencies:
     specifier: 8.52.0
     version: 8.52.0
   eslint-plugin-qwik:
-    specifier: 1.2.15
-    version: 1.2.15(eslint@8.52.0)
+    specifier: 1.2.16
+    version: 1.2.16(eslint@8.52.0)
   gray-matter:
     specifier: 4.0.3
     version: 4.0.3
@@ -118,24 +118,33 @@ packages:
       regenerator-runtime: 0.13.11
     dev: false
 
-  /@builder.io/qwik-city@1.2.15:
-    resolution: {integrity: sha512-sJSxYAwiSXZN9MMsCKN2TJBkVKaEdX1rTwi0SdmyqaEKxVAdtzc2sEyAcetZijhFMEh5Zd7sxz0mtu9fQGufLQ==}
+  /@builder.io/qwik-city@1.2.16(@types/node@20.8.9):
+    resolution: {integrity: sha512-oyVRrKsWqoXY09WPIqkVGjT6pqRSjn0PmxiS29CCym8MLxQGcOEIog5WCaYlMjMiu8EDlRbRX9KsGDk31A5u7w==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     dependencies:
       '@mdx-js/mdx': 2.3.0
       '@types/mdx': 2.0.9
       source-map: 0.7.4
       svgo: 3.0.2
+      undici: 5.26.3
       vfile: 6.0.1
+      vite: 4.5.0(@types/node@20.8.9)
       vite-imagetools: 5.1.2
       zod: 3.22.4
     transitivePeerDependencies:
+      - '@types/node'
+      - less
+      - lightningcss
       - rollup
+      - sass
+      - stylus
+      - sugarss
       - supports-color
+      - terser
     dev: false
 
-  /@builder.io/qwik@1.2.15(undici@5.26.3):
-    resolution: {integrity: sha512-5aiU1VL4quzEd8pGdeFfJOiN/SUYr6wu1FLEX3piqBxoJL+j8H/3jZeOl4TUZawNNYWZOckH74a3VzAXai/4ZA==}
+  /@builder.io/qwik@1.2.16(@types/node@20.8.9)(undici@5.26.3):
+    resolution: {integrity: sha512-ZadMArtIZpdeHeH2Qw5HEbGurCnKJ22i8fvZDlKybPercD8Obf6xk5ox1XcTsliodQWH3O0UJChvXArCrJR0LQ==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
     peerDependencies:
@@ -143,6 +152,15 @@ packages:
     dependencies:
       csstype: 3.1.2
       undici: 5.26.3
+      vite: 4.5.0(@types/node@20.8.9)
+    transitivePeerDependencies:
+      - '@types/node'
+      - less
+      - lightningcss
+      - sass
+      - stylus
+      - sugarss
+      - terser
     dev: false
 
   /@divriots/cheerio@1.0.0-rc.12:
@@ -1208,13 +1226,13 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: false
 
-  /@unpic/qwik@0.0.30(@builder.io/qwik@1.2.15):
+  /@unpic/qwik@0.0.30(@builder.io/qwik@1.2.16):
     resolution: {integrity: sha512-0/z6Zwzs+wgSTblvN5nXndhrHiXoktmPyZHexPOvOgd1cAW3lszDhOtTln06dQN71DWcTDjgN0WoX6L7O1rEBw==}
     engines: {node: '>=15.0.0'}
     peerDependencies:
       '@builder.io/qwik': '*'
     dependencies:
-      '@builder.io/qwik': 1.2.15(undici@5.26.3)
+      '@builder.io/qwik': 1.2.16(@types/node@20.8.9)(undici@5.26.3)
     dev: false
 
   /abab@2.0.6:
@@ -2509,8 +2527,8 @@ packages:
       source-map: 0.6.1
     dev: false
 
-  /eslint-plugin-qwik@1.2.15(eslint@8.52.0):
-    resolution: {integrity: sha512-1bmKSI51MnKAgHnXHepBqJt9OHJUGa3psrj9YhbnOnZ/eERWIZWewcomszleHwInAvDeRGdv5nHUpeWE2Rd5/w==}
+  /eslint-plugin-qwik@1.2.16(eslint@8.52.0):
+    resolution: {integrity: sha512-GrgRYjH/ozzrOuK/j10EfmgV6Hv552fHq/0+1ULyImU5DwoiN0jTDaWOKVIl2E8LEkSBsdg8AT+pPs8kOZy1TQ==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
       eslint: ^8.45.0
