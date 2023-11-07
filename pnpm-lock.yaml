@@ -12,8 +12,8 @@ dependencies:
     specifier: 1.2.17
     version: 1.2.17(@types/node@20.8.9)
   '@divriots/jampack':
-    specifier: 0.21.1
-    version: 0.21.1(react-dom@16.14.0)(react@16.14.0)
+    specifier: 0.22.0
+    version: 0.22.0(react-dom@16.14.0)(react@16.14.0)
   '@fontsource/inter':
     specifier: 5.0.15
     version: 5.0.15
@@ -180,8 +180,8 @@ packages:
       whatwg-mimetype: 3.0.0
     dev: false
 
-  /@divriots/jampack@0.21.1(react-dom@16.14.0)(react@16.14.0):
-    resolution: {integrity: sha512-U/3qhj413YpbNsF6NPao/7zpihhE7sL5i7YwGFgS8jqThV9/QmITesSgLVUEc+Bh8UNHshVKzJAKRLKTtpI1tg==}
+  /@divriots/jampack@0.22.0(react-dom@16.14.0)(react@16.14.0):
+    resolution: {integrity: sha512-JsfjiO6IDoSFJn5HBoJbjoKaEoV2BKk83SYcrsZQRgUSSGSujfoGj+T+8MDRTaGWIEObxxLgrE2M8OT7o84fJg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -206,6 +206,7 @@ packages:
       svgo: 3.0.2
       table: 6.8.1
       undici: 5.26.3
+      unpic: 3.13.0
     transitivePeerDependencies:
       - '@swc/helpers'
       - react
@@ -6401,6 +6402,10 @@ packages:
   /universalify@0.2.0:
     resolution: {integrity: sha512-CJ1QgKmNg3CwvAv/kOFmtnEN05f0D/cn9QntgNOQlQF9dgvVTHj3t+8JPdjqawCHk7V/KA+fbUqzZ9XWhcqPUg==}
     engines: {node: '>= 4.0.0'}
+    dev: false
+
+  /unpic@3.13.0:
+    resolution: {integrity: sha512-SVrWh8ZpCwf6XZSpmFM0qXnBKBXEu+/G26R6aoIZhPuBBTz26d8dmu85Bz6vCo5zhZIkWOZvwi4fy9Ppcv2PRg==}
     dev: false
 
   /update-browserslist-db@1.0.11(browserslist@4.21.10):
