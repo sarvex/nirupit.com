@@ -7,10 +7,10 @@ settings:
 dependencies:
   '@builder.io/qwik':
     specifier: 1.2.18
-    version: 1.2.18(@types/node@20.9.2)(undici@5.26.3)
+    version: 1.2.18(@types/node@20.10.0)(undici@5.26.3)
   '@builder.io/qwik-city':
     specifier: 1.2.18
-    version: 1.2.18(@types/node@20.9.2)
+    version: 1.2.18(@types/node@20.10.0)
   '@divriots/jampack':
     specifier: 0.22.1
     version: 0.22.1(react-dom@16.14.0)(react@16.14.0)
@@ -28,7 +28,7 @@ dependencies:
     version: 13.0.7
   '@types/node':
     specifier: latest
-    version: 20.9.2
+    version: 20.10.0
   '@typescript-eslint/eslint-plugin':
     specifier: 6.12.0
     version: 6.12.0(@typescript-eslint/parser@6.12.0)(eslint@8.54.0)(typescript@5.3.2)
@@ -73,7 +73,7 @@ dependencies:
     version: 5.3.2
   vite:
     specifier: 5.0.2
-    version: 5.0.2(@types/node@20.9.2)
+    version: 5.0.2(@types/node@20.10.0)
   vite-tsconfig-paths:
     specifier: 4.2.1
     version: 4.2.1(typescript@5.3.2)(vite@5.0.2)
@@ -118,7 +118,7 @@ packages:
       regenerator-runtime: 0.13.11
     dev: false
 
-  /@builder.io/qwik-city@1.2.18(@types/node@20.9.2):
+  /@builder.io/qwik-city@1.2.18(@types/node@20.10.0):
     resolution: {integrity: sha512-MfWzMLi0MaoPpI11g4qXVF5mX6hqfjsIS3G+1FUU+x4FIJFcbTu9cMnbaw5YdMOgNdJRS5wf2M++KXVy5oyJ/w==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     dependencies:
@@ -128,7 +128,7 @@ packages:
       svgo: 3.0.2
       undici: 5.26.3
       vfile: 6.0.1
-      vite: 4.5.0(@types/node@20.9.2)
+      vite: 4.5.0(@types/node@20.10.0)
       vite-imagetools: 5.1.2
       zod: 3.22.4
     transitivePeerDependencies:
@@ -143,7 +143,7 @@ packages:
       - terser
     dev: false
 
-  /@builder.io/qwik@1.2.18(@types/node@20.9.2)(undici@5.26.3):
+  /@builder.io/qwik@1.2.18(@types/node@20.10.0)(undici@5.26.3):
     resolution: {integrity: sha512-YfkpRI8IoJ6OkIlMoJ4jdjbotZSmBfMtf9ibxbf9vZLgKVLkSbSb4hgpA+NMWwQb/ojgn/6YJ49MwaZP81sm4Q==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
@@ -152,7 +152,7 @@ packages:
     dependencies:
       csstype: 3.1.2
       undici: 5.26.3
-      vite: 4.5.0(@types/node@20.9.2)
+      vite: 4.5.0(@types/node@20.10.0)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -1158,8 +1158,8 @@ packages:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: false
 
-  /@types/node@20.9.2:
-    resolution: {integrity: sha512-WHZXKFCEyIUJzAwh3NyyTHYSR35SevJ6mZ1nWwJafKtiQbqRTIKSRcw3Ma3acqgsent3RRDqeVwpHntMk+9irg==}
+  /@types/node@20.10.0:
+    resolution: {integrity: sha512-D0WfRmU9TQ8I9PFx9Yc+EBHw+vSpIub4IDvQivcp26PtPrdMGAq5SDcpXEo/epqa/DXotVpekHiLNTg3iaKXBQ==}
     dependencies:
       undici-types: 5.26.5
     dev: false
@@ -1184,7 +1184,7 @@ packages:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.9.2
+      '@types/node': 20.10.0
     dev: false
     optional: true
 
@@ -1329,7 +1329,7 @@ packages:
     peerDependencies:
       '@builder.io/qwik': '*'
     dependencies:
-      '@builder.io/qwik': 1.2.18(@types/node@20.9.2)(undici@5.26.3)
+      '@builder.io/qwik': 1.2.18(@types/node@20.10.0)(undici@5.26.3)
     dev: false
 
   /abab@2.0.6:
@@ -6657,13 +6657,13 @@ packages:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 2.1.1(typescript@5.3.2)
-      vite: 5.0.2(@types/node@20.9.2)
+      vite: 5.0.2(@types/node@20.10.0)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: false
 
-  /vite@4.5.0(@types/node@20.9.2):
+  /vite@4.5.0(@types/node@20.10.0):
     resolution: {integrity: sha512-ulr8rNLA6rkyFAlVWw2q5YJ91v098AFQ2R0PRFwPzREXOUJQPtFUG0t+/ZikhaOCDqFoDhN6/v8Sq0o4araFAw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -6691,7 +6691,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.9.2
+      '@types/node': 20.10.0
       esbuild: 0.18.20
       postcss: 8.4.31
       rollup: 3.28.0
@@ -6699,7 +6699,7 @@ packages:
       fsevents: 2.3.3
     dev: false
 
-  /vite@5.0.2(@types/node@20.9.2):
+  /vite@5.0.2(@types/node@20.10.0):
     resolution: {integrity: sha512-6CCq1CAJCNM1ya2ZZA7+jS2KgnhbzvxakmlIjN24cF/PXhRMzpM/z8QgsVJA/Dm5fWUWnVEsmtBoMhmerPxT0g==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -6727,7 +6727,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.9.2
+      '@types/node': 20.10.0
       esbuild: 0.19.4
       postcss: 8.4.31
       rollup: 4.5.0
