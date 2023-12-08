@@ -37,7 +37,7 @@
     "eslint": "8.55.0",
     "eslint-plugin-qwik": "1.2.19",
     "gray-matter": "4.0.3",
-    "markdown-it": "13.0.2",
+    "markdown-it": "14.0.0",
     "node-fetch": "3.3.2",
     "postcss": "8.4.32",
     "prettier": "3.1.0",
