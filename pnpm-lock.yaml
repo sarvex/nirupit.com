@@ -36,8 +36,8 @@ dependencies:
     specifier: 6.13.2
     version: 6.13.2(eslint@8.55.0)(typescript@5.3.3)
   '@unpic/qwik':
-    specifier: 0.0.37
-    version: 0.0.37(@builder.io/qwik@1.3.0)
+    specifier: 0.0.38
+    version: 0.0.38(@builder.io/qwik@1.3.0)
   autoprefixer:
     specifier: 10.4.16
     version: 10.4.16(postcss@8.4.32)
@@ -1321,8 +1321,8 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: false
 
-  /@unpic/qwik@0.0.37(@builder.io/qwik@1.3.0):
-    resolution: {integrity: sha512-J2uBN7meMnzP0EIScNoINFBNUgnatFCva5TTbgGuBnOL6/sQ0ofSVqh7bXFKAT6mXRh6KZkEbtN3DnhbcgrjqQ==}
+  /@unpic/qwik@0.0.38(@builder.io/qwik@1.3.0):
+    resolution: {integrity: sha512-5I3M9a6VGrw9KF5B7GHxpvwU3VyRfJ1qCWNSlcdLxw8S6m0lapOXL5oJq0gnRlde7csMfyE12oogmtp8nAibbw==}
     engines: {node: '>=15.0.0'}
     peerDependencies:
       '@builder.io/qwik': '*'
