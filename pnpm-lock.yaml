@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@builder.io/qwik':
-    specifier: 1.5.3
-    version: 1.5.3(@types/node@20.12.12)(undici@6.15.0)
+    specifier: 1.5.5
+    version: 1.5.5(@types/node@20.12.12)(undici@6.15.0)
   '@builder.io/qwik-city':
     specifier: 1.5.5
     version: 1.5.5(@types/node@20.12.12)
@@ -37,7 +37,7 @@ dependencies:
     version: 7.11.0(eslint@9.3.0)(typescript@5.4.5)
   '@unpic/qwik':
     specifier: 0.0.46
-    version: 0.0.46(@builder.io/qwik@1.5.3)
+    version: 0.0.46(@builder.io/qwik@1.5.5)
   autoprefixer:
     specifier: 10.4.19
     version: 10.4.19(postcss@8.4.38)
@@ -143,8 +143,8 @@ packages:
       - terser
     dev: false
 
-  /@builder.io/qwik@1.5.3(@types/node@20.12.12)(undici@6.15.0):
-    resolution: {integrity: sha512-X42mnWN2gWbTVqcT5X44+twqZyHOnMEL/MbJZGGJ5wmLkhNdDr4afHUKfhTuMVLXtKBinPjzC1pFYOeAhLEn9w==}
+  /@builder.io/qwik@1.5.5(@types/node@20.12.12)(undici@6.15.0):
+    resolution: {integrity: sha512-ZgeWVfkgdBcv/SwfB0RJtSR6YCVBnFtZ4dH1yxDqeShzgFrVqeVIE7l7A5wwb0hXtA6ESxskLgui6ayZlKSnWQ==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
     peerDependencies:
@@ -1376,13 +1376,13 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: false
 
-  /@unpic/qwik@0.0.46(@builder.io/qwik@1.5.3):
+  /@unpic/qwik@0.0.46(@builder.io/qwik@1.5.5):
     resolution: {integrity: sha512-Nki7Y9uKwVUJv6A2IY3PjOz2Ma0s7lcpIMK7s8lGEtqvXzxdV2yomWWvePI8oZZXdZnwWFjy8/t2G9UqXeZIsA==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
       '@builder.io/qwik': '*'
     dependencies:
-      '@builder.io/qwik': 1.5.3(@types/node@20.12.12)(undici@6.15.0)
+      '@builder.io/qwik': 1.5.5(@types/node@20.12.12)(undici@6.15.0)
     dev: false
 
   /abab@2.0.6:
