@@ -35,7 +35,7 @@
     "@unpic/qwik": "0.0.46",
     "autoprefixer": "10.4.19",
     "eslint": "9.3.0",
-    "eslint-plugin-qwik": "1.5.3",
+    "eslint-plugin-qwik": "1.5.5",
     "gray-matter": "4.0.3",
     "markdown-it": "14.1.0",
     "node-fetch": "3.3.2",
