@@ -51,8 +51,8 @@ dependencies:
     specifier: 4.0.3
     version: 4.0.3
   markdown-it:
-    specifier: 14.1.0
-    version: 14.1.0
+    specifier: 14.1.1
+    version: 14.1.1
   node-fetch:
     specifier: 3.3.2
     version: 3.3.2
@@ -4287,8 +4287,8 @@ packages:
     engines: {node: '>=16'}
     dev: false
 
-  /markdown-it@14.1.0:
-    resolution: {integrity: sha512-a54IwgWPaeBCAAsv13YgmALOF1elABB08FxO9i+r4VFk5Vl4pKokRPeX8u5TCgSsPi6ec1otfLjdOpVcgbpshg==}
+  /markdown-it@14.1.1:
+    resolution: {integrity: sha512-BuU2qnTti9YKgK5N+IeMubp14ZUKUUw7yeJbkjtosvHiP0AZ5c8IAgEMk79D0eC8F23r4Ac/q8cAIFdm2FtyoA==}
     hasBin: true
     dependencies:
       argparse: 2.0.1
