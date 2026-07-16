@@ -19,7 +19,7 @@ dependencies:
     version: 5.0.19
   '@tailwindcss/typography':
     specifier: 0.5.16
-    version: 0.5.16(tailwindcss@4.1.2)
+    version: 0.5.16(tailwindcss@4.3.3)
   '@types/eslint':
     specifier: 9.6.1
     version: 9.6.1
@@ -66,8 +66,8 @@ dependencies:
     specifier: 7.2.1
     version: 7.2.1(typescript@5.8.2)
   tailwindcss:
-    specifier: 4.1.2
-    version: 4.1.2
+    specifier: 4.3.3
+    version: 4.3.3
   typescript:
     specifier: 5.8.2
     version: 5.8.2
@@ -1400,7 +1400,7 @@ packages:
     resolution: {integrity: sha512-myfUej5naTBWnqOCc/MdVOLVjXUXtIA+NpDrDBKJtLLg2shUjBu3cZmB/85RyitKc55+lUUyl7oRfLOvkr2hsw==}
     dev: false
 
-  /@tailwindcss/typography@0.5.16(tailwindcss@4.1.2):
+  /@tailwindcss/typography@0.5.16(tailwindcss@4.3.3):
     resolution: {integrity: sha512-0wDLwCVF5V3x3b1SGXPCDcdsbDHMBe+lkFzBRaHeLvNi+nrrnZ1lA18u+OTWO8iSWU2GxUOCvlXtDuqftc1oiA==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders || >=4.0.0-alpha.20 || >=4.0.0-beta.1'
@@ -1409,7 +1409,7 @@ packages:
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       postcss-selector-parser: 6.0.10
-      tailwindcss: 4.1.2
+      tailwindcss: 4.3.3
     dev: false
 
   /@tokenizer/token@0.3.0:
@@ -6280,8 +6280,8 @@ packages:
       strip-ansi: 6.0.1
     dev: false
 
-  /tailwindcss@4.1.2:
-    resolution: {integrity: sha512-VCsK+fitIbQF7JlxXaibFhxrPq4E2hDcG8apzHUdWFMCQWD8uLdlHg4iSkZ53cgLCCcZ+FZK7vG8VjvLcnBgKw==}
+  /tailwindcss@4.3.3:
+    resolution: {integrity: sha512-gOhV3P7ufE62QDGg1zVaTgCR+EtPv92k2nIhVcVKcLmxT1sUBsQGhnZj175j+MqRt4zLF7ic+sCYjfhxMxj7YQ==}
     dev: false
 
   /tar-fs@2.1.1:
